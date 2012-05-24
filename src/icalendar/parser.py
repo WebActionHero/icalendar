@@ -39,7 +39,6 @@ def foldline(text, lenght=75, newline='\r\n'):
     return newline.join(
             textwrap.wrap(text, lenght,
                 subsequent_indent=' ',
-                drop_whitespace=False,
                 break_long_words=True,
                 replace_whitespace=False
                 )
